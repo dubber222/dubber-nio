@@ -20,9 +20,7 @@ public class NIOClientWriteThread extends Thread {
     @Override
     public void run() {
         try {
-            /*// 注册nickName
-            socketChannel.register(selector, SelectionKey.OP_WRITE);*/
-            //client既能写也能读，这边是写
+            // 注册nickName
             socketChannel.write(Charset.forName("UTF-16").encode(nickName));
 
             //在主线程中 从键盘读取数据输入到服务器端

@@ -44,7 +44,7 @@ public class NIOClientReadThread extends Thread {
                         // 控制台打印出来
                         System.out.println(content.toString());
                         // 为下一次读取作准备
-                        sk.interestOps(SelectionKey.OP_READ);
+                        // sk.interestOps(SelectionKey.OP_READ);
                     }
                 }
             }

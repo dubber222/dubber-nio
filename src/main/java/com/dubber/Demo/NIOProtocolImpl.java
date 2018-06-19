@@ -70,7 +70,7 @@ public class NIOProtocolImpl implements NIOProtocol {
                         users.add(nickName);
                         int onlineCount = CharUtils.onlineCount(selector);
                         String message = "欢迎 " + nickName + " 进入聊天室! 当前在线人数:" + onlineCount;
-                        nioReceiveBroadcast.broadcast(clientChannel, message);
+                        nioReceiveBroadcast.broadcast(null, message);
                     }
                     users.add(nickName);
                 } else {

@@ -39,7 +39,7 @@ public class NIOReceiveBroadcast {
             Channel targetchannel = key.channel();
 
             //如果client不为空，不回发给发送此内容的客户端
-            if (targetchannel instanceof SocketChannel/* && targetchannel != clientChannel*/) {
+            if (targetchannel instanceof SocketChannel && targetchannel != clientChannel) {
                 SocketChannel target = (SocketChannel) targetchannel;
                 try {
                     target.write(Charset.forName("UTF-16").encode(content));
