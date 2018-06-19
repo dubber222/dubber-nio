@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dubber.AppTest" time="0.044" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="forkCount" value="0"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="forkMode" value="never"/>
+    <property name="user.dir" value="D:\workspace_learn\tom-space\vip-20170405\dubber-nio"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="visualvm.id" value="624881337054939"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Users\CHENER~1\AppData\Local\Temp\"/>
+    <property name="user.home" value="D:"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="classworlds.conf" value="E:\mvn\apache-maven-3.0.4\bin\m2.conf"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1.5 -s E:\mvn\settings.xml -Dmaven.repo.local=E:\mvn\drubber-repository install -DforkMode=never -DforkCount=0 -DreuseForks=false"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="reuseForks" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="E:\mvn\apache-maven-3.0.4\boot\plexus-classworlds-2.4.jar;D:\soft\IDEA2017\lib\idea_rt.jar"/>
+    <property name="maven.home" value="E:\mvn\apache-maven-3.0.4"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="user.variant" value=""/>
+    <property name="user.language" value="zh"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="user.name" value="chenershuai"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
+    <property name="sun.boot.class.path" value="D:\soft\Java\jdk1.7.0_45\jre\lib\resources.jar;D:\soft\Java\jdk1.7.0_45\jre\lib\rt.jar;D:\soft\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;D:\soft\Java\jdk1.7.0_45\jre\lib\jsse.jar;D:\soft\Java\jdk1.7.0_45\jre\lib\jce.jar;D:\soft\Java\jdk1.7.0_45\jre\lib\charsets.jar;D:\soft\Java\jdk1.7.0_45\jre\lib\jfr.jar;D:\soft\Java\jdk1.7.0_45\jre\classes"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="maven.repo.local" value="E:\mvn\drubber-repository"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="sun.boot.library.path" value="D:\soft\Java\jdk1.7.0_45\jre\bin"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.home" value="D:\soft\Java\jdk1.7.0_45\jre"/>
+    <property name="java.endorsed.dirs" value="D:\soft\Java\jdk1.7.0_45\jre\lib\endorsed"/>
+    <property name="basedir" value="D:\workspace_learn\tom-space\vip-20170405\dubber-nio"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.library.path" value="D:\soft\Java\jdk1.7.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\soft\Python27\Lib\site-packages\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;D:\soft\Java\jdk1.8.0_171\bin;D:\soft\Java\jdk1.8.0_171\jre\bin;D:\soft\apache-tomcat-7.0.56\lib;D:\soft\apache-tomcat-7.0.56\bin;E:\mvn\apache-maven-3.0.4\bin;d:\soft\Git\cmd;D:\soft\MySQL\MySQL Server 5.6\bin;D:\MongoDB\bin;D:\soft\Python27;D:\soft\TortoiseSVN\bin;D:\soft\Python;D:\soft\apache-ant-1.7.1\bin;%ZOOKEEPER%\bin;E:\learn-soft\apache-storm-1.2.1\bin;E:\learn-soft\gradle-1.6\bin;."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.ext.dirs" value="D:\soft\Java\jdk1.7.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="localRepository" value="E:\mvn\drubber-repository"/>
+    <property name="surefire.test.class.path" value="D:\workspace_learn\tom-space\vip-20170405\dubber-nio\target\test-classes;D:\workspace_learn\tom-space\vip-20170405\dubber-nio\target\classes;E:\mvn\drubber-repository\junit\junit\4.11\junit-4.11.jar;E:\mvn\drubber-repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="idea.version" value="2017.1.5"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.dubber.AppTest" time="0.002"/>
+</testsuite>
