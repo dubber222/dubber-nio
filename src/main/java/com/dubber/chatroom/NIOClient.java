@@ -1,4 +1,4 @@
-package com.dubber.Demo;
+package com.dubber.chatroom;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -10,7 +10,7 @@ import java.nio.channels.SocketChannel;
 /**
  * NIO TCP 客户端
  */
-public class NIOClient2 {
+public class NIOClient {
     // 与服务器通信的信道
     SocketChannel socketChannel;
     // 信道选择器
@@ -29,15 +29,15 @@ public class NIOClient2 {
      * @param HostListenningPort
      * @throws IOException
      */
-    public NIOClient2(String HostIp, int HostListenningPort, String nickName) throws IOException {
+    public NIOClient(String HostIp, int HostListenningPort, String nickName) throws IOException {
         this.hostIp = HostIp;
         this.hostListenningPort = HostListenningPort;
-        this.nickName = nickName != "" ? nickName : "睿睿小旺仔" + System.currentTimeMillis();
+        this.nickName = nickName != "" ? nickName : "安安小竹笋" + System.currentTimeMillis();
     }
 
     // 启动客户端
     public static void main(String[] args) throws IOException {
-        NIOClient2 client = new NIOClient2("127.0.0.1", 8080, "睿睿小旺仔");
+        NIOClient client = new NIOClient("127.0.0.1", 8080, "安安小竹笋");
         client.initialize();
     }
 
